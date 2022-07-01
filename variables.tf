@@ -3,3 +3,9 @@ variable "instance_name" {
   type        = string
   default     = "ExampleAppServerInstance"
 }
+
+variable "instance_type" {
+  description = "Value of the EC2 instance type"
+  type        = string
+  default     = "t2.micro"
+}
